@@ -26,3 +26,12 @@ para hacer su compra.
 Nuestro objetivo es añadir transferencias interbancarias como una nueva forma de pago que facilite el pago exacto al usuario, aumente las ventas al aumentar las opciones del usuario y ayude al administrador de la tienda al disminuir casos donde se paga menos de lo solicitado.
 
 La propuesta consiste en la creación de un código QR que al escanearlo redirija al cliente a un formulario en el que visualizará la información requerida para la transferencia; deberá también seleccionar lo que compró, ver su total y adjuntar el comprobante de la transferencia. Esa información se enlazará a una base de datos para su visualización y posterior confirmación por el encargado.
+
+## III. Definición del alcance.
+
+- **Se incluye:**
+  - Generación de código QR estático que dirija a los usuarios a un formulario de pago.
+  - Desarrollo del formulario donde el usuario pueda visualizar los datos para la transferencia interbancaria, seleccionar los productos consumidos y adjuntar su comprobante de pago.
+  - Funcionalidad para adjuntar el comprobante de transferencia.
+  - Creación de una base de datos con los comprobantes, las fechas y los artículos consumidos.
+  - Creación de una utilidad de visualización básica, para que el administrador (el dueño) pueda consultar las transacciones que se hicieron de esta manera y ver qué artículos se consumieron.
